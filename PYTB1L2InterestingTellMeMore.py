@@ -4,7 +4,7 @@ import math
 print("Hey, hoe heet je?")
 naam = input()
 time.sleep(1)
-print("Hoi",naam,", leuke naam! En ik heet Samed.\n")
+print("Hoi ",naam,", leuke naam! En ik heet Samed.\n")
 
 time.sleep(1)
 print("Woon je in Amsterdam, of kom je van ergens anders?\n")
