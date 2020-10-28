@@ -1,26 +1,18 @@
 
-lijst1 = ["appels" , "melk" , "eieren" , "brood" , "boter" , "pindakaas"]
-lijst2 = ["appels" , "melk" , "eieren" , "brood" , "boter"]
+groceryList = ["appels" , "melk" , "eieren" , "brood" , "boter" , "pindakaas"]
+shoppingCart = ["appels" , "melk" , "eieren" , "brood" , "pindakaas" , "boter"]
 
 
-print("\n")
-
-print("grocery list:")
-
-for x in lijst1:
+for x in groceryList:
     print(x)
-
 print("\n")
 
-print("shopping cart:")
-
-for x in lijst2:
+for x in shoppingCart:
     print(x)
-
 print("\n")
 
-if lijst1 == lijst2:
+
+if groceryList == shoppingCart:
     print("done shopping!")
-
 else: 
     print("continue shopping")
