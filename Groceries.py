@@ -1,6 +1,6 @@
 
 groceryList = ["appels" , "melk" , "eieren" , "brood" , "boter" , "pindakaas"]
-shoppingCart = ["appels" , "melk" , "eieren" , "brood" , "pindakaas" , "boter"]
+shoppingCart = ["appels" , "melk" , "eieren" , "brood" , "boter"]
 
 
 for x in groceryList:
